@@ -118,16 +118,15 @@ Before starting the integration, make sure you have:
 
     ```json
     {
-        "integration_name": "Groq Content Generator",
+        "integration_name": "AI-Content Generator",
         "app_url": "https://<lambda-function-url>.lambda-url.us-east-1.on.aws/",
-        "logo_url": "https://my-application.com/logo.png",
-        "integration_type": "External API Integration",
+        "logo_url": "https://sociality.io/blog/26-free-vector-social-media-icons/",
+        "integration_type": "Output Integration",
         "created_at": "02/21/2025",
         "updated_at": "02/21/2025",
         "target_url": "https://<lambda-function-url>.lambda-url.us-east-1.on.aws/",
-        "author": "Layobright",
-        "integration_category": "AI Content Generation",
-        "tick_url": "https://my-support-page.com",
+        "author": "KenDev",
+        "integration_category": "Social Media Management",
         "description": "Generates AI-powered content based on user-provided keywords, using Groq Cloud.",
         "key_features": "Generates content based on user keywords, customizable response length, AI-powered.",
         "settings": [
@@ -192,5 +191,3 @@ If you encounter any issues, check the following:
 - **Lambda function permissions**: Ensure your Lambda function has the necessary permissions to make external HTTP requests.
 - **API Key**: Double-check the Groq API key for validity and ensure it has the correct access levels.
 - **Response Format**: Make sure the Groq API response format matches the expected structure for the Lambda function.
-
-Let me know if you need any further assistance!
