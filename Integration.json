@@ -13,7 +13,7 @@
       "background_color": "#fff"
     },
     "integration_category": "Social Media Management",
-    "integration_type": "output",
+    "integration_type": "modifier",
     "is_active": true,
     "key_features": [
       "Generates content based on user keywords",
